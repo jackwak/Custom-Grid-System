@@ -12,10 +12,6 @@ public class CameraManager : MonoBehaviour
     {
         _camera = GetComponent<Camera>();
     }
-    private void Start()
-    {
-        
-    }
 
     public void SetCameraPosition(Vector3 centerOfCells)
     {
